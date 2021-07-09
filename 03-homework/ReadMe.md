@@ -1,3 +1,20 @@
+### ODEV ONCESI
+Eğer bu repoyu kullanarak kendi bilgisayarinizda development yapmak isterseniz sirasiyla,
+1) Repoyu clonelayin
+2) yarn veya npm install komutunu calistirin (Sadece birisi)
+3) yarn start veya npm start komutunu calistirin (sadece birisi)
+
+index.js'e ve index.html'e kod yazarak baslayabilirsiniz. yarn start yaptiysaniz degisiklikleriniz otomatik olarak ekranda gorulmeli. Sorun yasarsaniz asistanlari bulun.
+
+Eger bu repoyu kullanmadan (parcel olmadan) kullanmak istiyorsaniz;
+
+1) Codesandbox.com 'u kullanabilirsiniz
+2) direk index.html'e yazarak calistirabilirsiniz.
+
+
+ODEV
+
+----- 
 ### EFT Uygulaması
 
 Bir banka uygulaması geliştirdiğımizi hayal edelim, bizim sorumlu olduğumuz kısma gelene kadar kullanıcı çoktan giriş yapmış ilgili menüden para transferi seçeneğini seçmiş olsun. 

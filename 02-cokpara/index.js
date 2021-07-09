@@ -43,9 +43,9 @@ const para = document.querySelector('h3');
 para.innerHTML = `Toplam para : $${current}`;
 const sectionCenter = document.querySelector('.section-center');
 
-window.addEventListener('DOMContentLoaded', function () {
-  display();
-});
+// window.addEventListener('DOMContentLoaded', function () {
+//   display();
+// });
 
 function display() {
   let items = productList.map((item, index) => {
@@ -73,7 +73,7 @@ function display() {
   // console.log(item);
   sectionCenter.innerHTML = items;
 }
-
+display();
 const handleClick = (value, event) => {
   // event.currentTarget.
   if (event.currentTarget.id == 1) {
@@ -95,3 +95,15 @@ const handleClick = (value, event) => {
   para.innerHTML = `Toplam para : $${current}`;
   display();
 };
+let buttons = document.querySelectorAll('button');
+buttons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    let textNode = document.createElement('span');
+    textNode.textContent = '1';
+    console.log(textNode);
+
+    let div = document.querySelector('.item-info');
+    div.appendChild(textNode);
+    console.log(div);
+  });
+});
